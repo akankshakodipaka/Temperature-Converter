@@ -1,0 +1,134 @@
+/*style.css */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    position:absolute;
+    background-image: url(te.jpeg);
+    background-size: cover;
+    color: #222;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .title {
+    color: #222;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  .temperature-converter {
+    background:bisque;
+    border-radius: 5px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 25px 20px;
+    min-width: 320px;
+    width: 100%;
+    height: auto;
+  }
+  
+  .result {
+    text-align: center; 
+    margin: 20px 0;
+  }
+  
+  .result-heading {
+    color:blueviolet;
+  
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  
+  .celsius-value {
+    border-bottom: 2px solid black;
+    padding: 10px;
+  }
+  
+  label {
+    color:red;
+    font-size: 1rem;
+    margin-bottom: 5px;
+  }
+  
+  input,
+  select {
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+    padding: 10px;
+    margin-bottom: 15px;
+    align-items: center;
+  }
+  
+  input:focus {
+    border: 1px solid black;
+  }
+  
+  .degree-type {
+    align-items: center;
+    padding:20px 0;
+    text-align: center;
+  }
+  
+  .degree-field {
+    flex-direction: column;
+    width: 46%;
+    display:flex;
+    text-align:left;
+  }
+  
+  option {
+    background-color:black;
+    color:white;
+  }
+  
+  #convert-btn {
+    background: linear-gradient(to bottom,black, gray);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: #f6f6f6;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    padding: 12px 80px;
+    transition: all 0.3s ease-in;
+  }
+  
+  #convert-btn:hover {
+    background: linear-gradient(to bottom,gray,gray);
+  }
+  .image{
+    display:flex;
+    justify-content: center;
+    width:100%;
+    object-fit: cover;
+  }
+  .image img{
+    width:2000px;
+    height:800px;
+    margin-right: 10px;
+    padding: 10px 40px;
+    display: flex;
+  }
+  .container{
+    position:absolute;
+    top:30%;
+    height:350px;
+    width:450px;
+    align-items: center;
+    text-align: center;
+  }
